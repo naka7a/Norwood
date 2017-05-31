@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Norwood</title>
+	<link href="styles/main.css" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">	
+
+    <script>
+	    // Picture element HTML5 shiv
+	    document.createElement( "picture" );
+  	</script>
+ 	<script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js" async></script>
+</head>
+
+<body>
+	<header>
+		<div class="wrapper">
+			<a href="index.html">
+				<h1 class="logo">Norwood</h1>
+				<img src="media/logo.svg" alt="Norwood" id="logo">
+			</a>
+			<nav>
+				<h2 class="navigation">Main Navigation</h2>
+				<div id="nav-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<ul>
+					<li><a href="#jumptodescription" id="button2">about</a></li>
+					<li><a href="#gallery">gallery</a></li>
+					<li><a href="#packages">packages</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
+			</nav>		
+		</div>
+	</header>
+	<main>
+		<div id="main-banner">
+			<picture>
+				<source srcset="media/hero-img-mobile.jpg" media="(max-width: 480px)">
+				<source srcset="media/hero-img-tablet-s.jpg" media="(max-width: 780px)">
+				<source srcset="media/hero-img-tablet.jpg" media="(max-width: 960px)">
+				<img srcset="media/hero-img2.jpg" alt="banner" id="hero-img">
+			</picture>
+			<img src="media/hero-title.svg" alt="Time to build your dream house" id="hero-title">
+		</div>
+		<div id="jumptodescription"></div>
+		<div id="description" class="upupup">
+			<div id="about" class="">
+				<p class="about-norwood">Norwood is a high prestige wood construction company started in 1948 focused on design quality and tradition.<br>
+				<br>
+			Praesent pellentesque tristique lorem sed porttitor. Morbi semper leo orci, quis ultricies diam congue at. Cras ut risus felis. Nullam elit dui, congue at elementum sed, laoreet ut turpis. Pellentesque at tortor tortor. Suspendisse ac odio sed ipsum rutrum pretium quis vel mi. Sed vel tellus sed ligula laoreet egestas.
+				<br>
+				<br>
+			Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum.
+				<br>
+				<br>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.<br>
+				<br>
+			Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+				<img src="media/logo-grey.svg" alt="logo-grey">
+			</div>
+			<h4><a id="more">more about</a></h4></p>
+		</div>
+
+		<div id="gallery">
+			<h2 id="gallery-title">gallery</h2>
+			<div class="slides-left">
+				<div id="sld1" class="show"><img src="media/slide1.jpg" alt=""></div>
+				<div id="sld2" class=""><img src="media/slide2.jpg" alt=""></div>
+				<div id="sld3" class=""><img src="media/slide3.jpg" alt=""></div>
+				<div id="sld4" class=""><img src="media/slide4.jpg" alt=""></div>
+			</div>
+			<div class="slides-right">
+				<div id="slider-height">
+					<div data-divid="sld1" class="active"><img src="media/slide1.jpg" alt=""></div>
+					<div data-divid="sld2" class=""><img src="media/slide2.jpg" alt=""></div>
+					<div data-divid="sld3" class=""><img src="media/slide3.jpg" alt=""></div>
+					<div data-divid="sld4" class=""><img src="media/slide4.jpg" alt=""></div>
+				</div>
+			</div>
+		</div>
+
+		<img src="media/benefits.svg" alt="" id="benefits" class="upupup">
+
+		<div class="company-values">
+			<picture>
+				<source srcset="media/focus-480.jpg" media="(max-width: 480px)">
+				<source srcset="media/focus-768.jpg" media="(max-width: 780px)">
+				<source srcset="media/focus-960.jpg" media="(max-width: 960px)">
+				<img srcset="media/focus.jpg" alt="focus-img" class="values-img">
+			</picture>
+			<div class="wrapper2">
+				<picture>
+					<source srcset="media/focus-480.svg" media="(max-width: 480px)">
+					<img srcset="media/focus.svg" alt="focus-svg" id="focus-title" class="upupup">
+				</picture>
+				
+				<div id="text" class="cat">
+					<picture>
+						<source srcset="media/text-bg-480.svg" media="(max-width: 480px)">
+						<source srcset="media/text-bg-768.svg" media="(max-width: 780px)">
+						<source srcset="media/text-bg-960.svg" media="(max-width: 960px)">
+						<img srcset="media/text-bg.svg" alt="text-background">
+					</picture>
+					
+					<p>Praesent pellentesque tristique lorem sed porttitor. Morbi semper leo orci, quis ultricies diam congue at. Cras ut risus felis. Nullam elit dui, congue at elementum sed, laoreet ut turpis. Pellentesque at tortor tortor. Suspendisse ac odio sed ipsum rutrum pretium quis vel mi. Sed vel tellus sed ligula laoreet egestas.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="company-values">
+			<picture>
+				<source srcset="media/build-480.jpg" media="(max-width: 480px)">
+				<source srcset="media/build-768.jpg" media="(max-width: 780px)">
+				<source srcset="media/build-960.jpg" media="(max-width: 960px)">
+				<img srcset="media/build.jpg" alt="build-img" class="values-img">
+			</picture>
+			<div class="wrapper2">
+				<picture>
+					<source srcset="media/build-480.svg" media="(max-width: 480px)">
+					<source srcset="media/build-768.svg" media="(max-width: 780px)">
+					<img srcset="media/build.svg" alt="build-svg" id="build-title" class="upupup">
+				</picture>
+				
+				<div id="text2" class="cat">
+					<picture>
+						<source srcset="media/text-bg-480.svg" media="(max-width: 480px)">
+						<source srcset="media/text-bg-768.svg" media="(max-width: 780px)">
+						<source srcset="media/text-bg-960.svg" media="(max-width: 960px)">
+						<img srcset="media/text-bg.svg" alt="text-background">
+					</picture>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet massa eget elit lobortis sodales. Quisque id turpis imperdiet, tempor justo at, interdum magna. Proin nec placerat tortor. Mauris accumsan, nibh eu rutrum dapibus, nisl metus imperdiet sem, id mattis diam tortor eu dui. Nulla feugiat, elit vestibulum egestas commodo, lacus arcu eleifend dui, ac lobortis libero massa sit amet erat. Duis gravida, leo quis placerat feugiat, libero lacus commodo enim, non rutrum dui metus vitae metus. Aenean gravida orci nisl, sit amet fringilla orci pulvinar quis. Curabitur hendrerit urna lacus, ut tempus nunc elementum eget. Quisque et aliquam ipsum. Ut semper velit enim, non euismod lectus suscipit eget. Morbi et sem ut leo luctus gravida. Nullam ligula magna, tincidunt sed ornare vel, rutrum nec est. In non arcu porttitor, auctor ipsum eget, cursus arcu. </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="company-values">
+			<picture>
+				<source srcset="media/offer-480.jpg" media="(max-width: 480px)">
+				<source srcset="media/offer-768.jpg" media="(max-width: 780px)">
+				<source srcset="media/offer-960.jpg" media="(max-width: 960px)">
+				<img srcset="media/offer.jpg" alt="build-img" class="values-img">
+			</picture>
+			<div class="wrapper2">
+				<picture>
+					<source srcset="media/offer-480.svg" media="(max-width: 480px)">
+					<img srcset="media/offer.svg" alt="offer-svg" id="offer-title" class="upupup">
+				</picture>
+				
+				<div id="text3" class="cat">
+					<picture>
+						<source srcset="media/text-bg-480.svg" media="(max-width: 480px)">
+						<source srcset="media/text-bg-768.svg" media="(max-width: 780px)">
+						<source srcset="media/text-bg-960.svg" media="(max-width: 960px)">
+						<img srcset="media/text-bg.svg" alt="text-background">
+					</picture>
+					<p>Praesent pellentesque tristique lorem sed porttitor. Morbi semper leo orci, quis ultricies diam congue at. Cras ut risus felis. Nullam elit dui, congue at elementum sed, laoreet ut turpis. Pellentesque at tortor tortor. Suspendisse ac odio sed ipsum rutrum pretium quis vel mi. Sed vel tellus sed ligula laoreet egestas.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="selling-points">
+			<picture>
+				<source srcset="media/logs-bg-400.jpg" media="(max-width: 400px)">
+				<source srcset="media/logs-bg-480.jpg" media="(max-width: 480px)">
+				<source srcset="media/logs-bg-768.jpg" media="(max-width: 780px)">
+				<source srcset="media/logs-bg-960.jpg" media="(max-width: 960px)">
+				<img srcset="media/logs-bg.jpg" alt="focus-img" id="logs">
+			</picture>
+			
+			<picture>
+				<source srcset="media/logs-title-480.svg" media="(max-width: 480px)">
+				<img srcset="media/logs-title.svg" alt="" id="logs-title" class="upupup">
+			</picture>
+			
+			<ul>
+			    <li><img src="media/clock.svg" alt="" id="icon1"><p>reduced execution time<br>(45-90 days)</p></li>
+			    <li><img src="media/thermo.svg" alt="" id="icon2"><p>high thermal and sound<br>protection</p></li>
+			    <li><img src="media/feather.svg" alt="" id="icon3"><p>lightweight and highly<br>resistant structures</p></li>
+			    <li><img src="media/cash.svg" alt="" id="icon4"><p>reduced costs by 30-40%<br>compared to masonry houses</p></li>
+			    <li><img src="media/leaf.svg" alt="" id="icon5"><p>ecological house</p></li>
+			</ul>
+		</div>
+		
+		<div id="feedback" class="wrapper">
+			<img src="media/feedback-title.svg" alt="" id="feedback-title" class="upupup">
+			<div class="wrapper quotes upupup">
+				<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu dictum enim, quis consectetur odio. Pellentesque condimentum semper augue sit amet consequat. Sed vestibulum augue id ligula aliquet, in hendrerit tellus hendrerit. Vestibulum tristique condimentum risus in facilisis. Nam vel blandit mi, tristique cursus augue. Nam eget fermentum dolor. Sed lobortis velit sit amet nibh dignissim, nec imperdiet enim tincidunt.” </p><img src="media/eddie.svg" alt="" id="eddie">
+			</div>
+			<div class="wrapper quotes upupup">
+				<p>“Quisque iaculis neque sed nunc ultrices fringilla. Donec venenatis purus nisi, in tincidunt tortor feugiat non. Ut lobortis venenatis tortor eu condimentum. Praesent enim odio, faucibus vitae porta non, consectetur nec nisi. Duis volutpat magna a mauris lacinia pulvinar. Maecenas consectetur orci quis leo semper, quis vulputate odio aliquam. Donec imperdiet eros ut eros semper, non fermentum mi tristique. Nam fermentum vehicula nunc. Phasellus pretium, metus et imperdiet fermentum, risus est porta ligula, quis luctus orci ex vel arcu. Suspendisse potenti. Nunc vel purus justo. Proin porttitor vehicula ipsum non vulputate. Nunc ultrices massa eu pretium faucibus. Mauris in sodales ex.”</p><img src="media/sabrina.svg" alt="">
+			</div>
+			<div class="wrapper quotes upupup">
+				<p>“Phasellus faucibus ullamcorper leo, nec dignissim velit pharetra non. Phasellus et purus id lorem congue auctor mollis a elit. Aliquam aliquet convallis massa a dictum. Nunc varius a tortor nec elementum. Vestibulum eget dictum justo. In pulvinar, elit eu luctus euismod, turpis arcu laoreet risus, non maximus felis enim sed leo. Morbi eget massa maximus, auctor tortor ut, iaculis quam.”</p><img src="media/jeremy.svg" alt="">
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div id="contact">
+			<img src="media/contact-title.svg" alt="" id="contact-title">
+			<div id="collum-left">
+				<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+				<img src="media/phone-icon.svg" alt="" class="footer-icons"><p>+1-714-210-2061<br>+1-714-210-2311</p>
+				<img src="media/mail-icon.svg" alt="" class="footer-icons"><p>contact@norwood.com</p>
+				<img src="media/location-icon.svg" alt="" class="footer-icons"><p>51 Wrangler St.<br>North Hills, CA 91343</p>
+			</div>
+			<fieldset>
+				<input type="name" placeholder="Your name *" required>
+				<button type="send" class="">
+					<span class=""></span>
+					<img src="media/send-icon.svg" alt="send-icon" id="send" class="validated">
+					<img src="media/thick.svg" alt="thick-icon" id="thick">
+				</button>
+				<input type="email" placeholder="Your email *" required>
+				<input type="telephone" placeholder="Your telephone">
+				<textarea rows="4" cols="50" name="message" form="usrform" placeholder="Tell us about your project. We’d love to work for you! *" required></textarea>
+				<p>Fields marked with * are required</p>
+				<button type="send2" class="">
+					<span class=""></span>
+					<img src="media/send-icon.svg" alt="send-icon" id="send" class="validated">
+					<img src="media/thick.svg" alt="thick-icon" id="thick">
+				</button>
+			</fieldset>
+			<div id="map"></div>
+			<h4>Enter your email to recive our latest news and offers.</h4>
+			<input type="subscribe" placeholder="Email Adress"><button type="subscribe">Subscribe</button>
+			<div id="footer">
+				<ul>
+					<li>NAVIGATE</li>
+					<li><br></li>
+					<li><a href="#jumptodescription">About</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#packages">Packages</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<ul>
+					<li>ADRESS</li>
+					<li><br></li>
+					<li>51 Wrangler St.<br>North Hills, CA 91343</li>
+				</ul>
+				<ul>
+					<li>CONTACT</li>
+					<li><br></li>
+					<li>+1-714-210-2061<br>+1-714-210-2311<br>contact@norwood.com</li>
+				</ul>
+				<ul>
+					<li>OUR POLICIES</li>
+					<li><br></li>
+					<li><a href="#privacy">Privacy</a></li>
+					<li><a href="#terms">Terms of use</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="copyright">
+			<li>Copyright @ 2017 Norwood Co. All rights reserved</li>
+		</div>
+	</footer>
+
+ 	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJt9_z9ih_Q2e2lcL3pA8o8gvjr-gvDYQ&amp;callback=initMap" async="" defer=""></script>
+	<script src="js/main.js"></script>
+		
+</body>
+
+</html>
